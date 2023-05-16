@@ -1,0 +1,22 @@
+global_costmap:
+   global_frame: map
+   robot_base_frame: base_link
+   update_frequency: 1
+   publish_frequency: 0.5
+   static_map: true
+   transform_tolerance: 0.5
+
+# taken to clear the obstacles in cost map check 
+# real it works???????????
+#global_costmap:
+#  global_costmap:
+#    ros__parameters:
+#      obstacle_layer:
+#        enabled: True
+#      always_send_full_costmap: True
+#      observation_sources: scan
+#      scan:
+#        topic: /scan
+#        max_obstacle_height: 2.0
+#        clearing: True
+#        marking: True

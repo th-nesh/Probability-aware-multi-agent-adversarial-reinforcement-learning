@@ -1,0 +1,13 @@
+<launch>
+
+	<!-- Connect to the robot -->
+  <include file="$(find robotino_node)/launch/robotino_node.launch">
+    <arg name="hostname" value="129.69.102.241"/>
+    <!-- more default parameters can be changed here -->
+  </include>
+  
+	<!-- open gmapping -->
+  <node pkg="gmapping" type="slam_gmapping" name="slam_gmapping" output="screen">
+    <rosparam file="$(find real_nav_control)/param/gmapping.yaml" command="load" />
+  </node>
+</launch>

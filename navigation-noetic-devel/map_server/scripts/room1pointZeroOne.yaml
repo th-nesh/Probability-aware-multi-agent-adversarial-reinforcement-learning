@@ -1,0 +1,7 @@
+image: /home/cpfactory/digitalTwin_ws/src/IDT/digital_twin/scripts/visual_manager/room1pointZeroOne.pgm
+resolution: 0.010000
+origin: [-11.240000, -12.520000, 0.000000]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
+

@@ -1,0 +1,24 @@
+wall_0:
+  angle: 2.88
+  center:
+    x: 66
+    y: 254
+  length: 571
+wall_1:
+  angle: 1.31
+  center:
+    x: 364
+    y: 38
+  length: 465
+wall_2:
+  angle: -0.26
+  center:
+    x: 514
+    y: 374
+  length: 573
+wall_3:
+  angle: -1.83
+  center:
+    x: 216
+    y: 590
+  length: 464

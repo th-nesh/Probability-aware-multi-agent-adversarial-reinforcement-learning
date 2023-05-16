@@ -1,0 +1,6 @@
+workstation
+storage
+table
+box
+robot
+chair

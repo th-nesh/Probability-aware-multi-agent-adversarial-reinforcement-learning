@@ -1,0 +1,25 @@
+prio 1:
+    - for protagonist (if not for adv. too) I need a function that shortest distance to the next obstacle (and maybe also return the "next two obstacles")
+
+prio 2:
+    - actually still something fishy with the object detection - changing the threshold can result in different outcome of where and in which angle an object is detected/placed
+    - need seperate config for adv and prot
+
+prio 100:
+    - seems deepcopy takes a lot of time in general
+    - it didn't work with smooth_l1_loss -> why is that?
+    - would be nice to use the render() method of environmnet to call the "rendering" of the trajectories
+
+Questions:
+    - critic 2D-heatmap? tricky to come up with but would be cool
+
+Problems:
+    - if I could get rid of the random high variance of the reward that would help for sure. even taking 2k avg has still considerable fluctuations with same policy (tested with always 10° action...)
+
+Ideas:
+    - If shortest dist to next obj is known we could omit those segments in memory that are very isolated and can not cause a collision anyway (for adversary)
+    - We could penalize the pixels (white ones) further away from closest distance point more than the closer ones - did not implement that yet (for prot)
+
+Notes
+    - choose action() take most of the time in normal (non learning, and not resetting nodes) episodes
+    - the prot should have an incentive to not have the traj. cross  white pixels of the prot map

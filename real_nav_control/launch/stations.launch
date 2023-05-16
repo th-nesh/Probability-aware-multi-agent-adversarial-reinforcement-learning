@@ -1,0 +1,5 @@
+<launch>
+
+  <node name="createMarker" pkg="real_nav_control" type="createMarker.py" output="screen"/>
+  
+</launch>

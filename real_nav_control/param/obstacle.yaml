@@ -1,0 +1,71 @@
+rect_1:
+  angle: -0.273
+  center:
+    x: 2
+    y: 2.5
+  length:
+    h: 66.6
+    w: 133.3
+rect_2:
+  angle: -0.273
+  center:
+    x: 4.5
+    y: 2
+  length:
+    h: 66.6
+    w: 133.3
+rect_3:
+  angle: -0.273
+  center:
+    x: 6.5
+    y: 2
+  length:
+    h: 66.6
+    w: 100
+
+rect_4:
+  angle: -0.24
+  center:
+    x: 7.5
+    y: 2.5
+  length:
+    h: 66.6
+    w: 66.6
+    
+rect_5:
+  angle: -0.24
+  center:
+    x: 7.5
+    y: 3.8
+  length:
+    h: 66.6
+    w: 66.6
+    
+rect_6:
+  angle: -0.24
+  center:
+    x: 8.5
+    y: 5.5
+  length:
+    h: 66.6
+    w: 66.6
+    
+    
+rect_7:
+  angle: -0.25
+  center:
+    x: 7
+    y: 6.2
+  length:
+    h: 100
+    w: 66.6
+    
+rect_8:
+  angle: -0.25
+  center:
+    x: 5.1
+    y: 6.5
+  length:
+    h: 100
+    w: 66.6
+

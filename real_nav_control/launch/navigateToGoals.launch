@@ -1,0 +1,7 @@
+<launch>
+
+  <node name="getStationCoord" pkg="real_nav_control" type="getStationCoord.py" output="screen"/>
+  <node name="navigateBWStations" pkg="real_nav_control" type="navigateBWStations.py" output="screen"/>
+  <node name="stationCoordServer" pkg="real_nav_control" type="stationCoordServer.py" output="screen"/>
+  
+</launch>
